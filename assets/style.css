@@ -50,5 +50,14 @@
 
 /*hero*/
 /*about me*/
+.bio-img {
+    flex: 1 12%;
+    margin-right: 20px;
+
+}
+
+.bio-img img {
+    max-width: 20%;
+}
 /*my work*/
 /*contact me*/
