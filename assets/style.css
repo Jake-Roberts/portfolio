@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 /*header*/
@@ -11,18 +10,21 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    background-image: url(../assets/images/background-1.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 .header h1 {
     font-weight: bold;
     font-size: 34px;
-    color: rgb(136, 6, 6);
+    color: white;
     margin: 0;
 }
 
 .header a {
     text-decoration: none;
-    color: rgb(136, 6, 6);
+    color: white;
 }
 
 .header nav {
@@ -50,14 +52,43 @@
 
 /*hero*/
 /*about me*/
-.bio-img {
-    flex: 1 12%;
-    margin-right: 20px;
-
+#about-me {
+    padding: 20px 35px;
+    background-image: url(../assets/images/background-1.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
 }
 
-.bio-img img {
-    max-width: 20%;
+.bio {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
+.bio-title {
+    font-size: 42px;
+    color: white;
+    display: inline;
+
+}
+.bio-content {
+    padding: 20px 35px;
+    font-size: 28px;
+    display: inline;
+    text-align: center;
+
+}
+.bio-image img {
+    border: 1px solid white;
+    width: 150px;
+    padding: 5px;
+}
+.bio-image h3 {
+    text-align: center;
+}
+
+
 /*my work*/
 /*contact me*/
