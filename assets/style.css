@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 /*header*/
@@ -49,7 +50,6 @@
     font-size: 24px;
 }
 
-
 /*hero*/
 /*about me*/
 #about-me {
@@ -67,12 +67,13 @@
     justify-content: space-around;
     flex-wrap: wrap;
 }
+
 .bio-title {
     font-size: 42px;
     color: white;
     display: inline;
-
 }
+
 .bio-content {
     padding: 20px 35px;
     font-size: 28px;
@@ -80,15 +81,94 @@
     text-align: center;
 
 }
+
 .bio-image img {
     border: 1px solid white;
-    width: 150px;
-    padding: 5px;
+    width: 200px;
+    height: 350px;
+    padding: 2px;
 }
+
 .bio-image h3 {
     text-align: center;
 }
 
-
 /*my work*/
+#my-work {
+    display: flex;
+    padding: 20px 35px;
+    background-color: white;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.work {
+    margin: 0 auto;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.work-title {
+    flex-direction: column;
+    text-align: center;
+    font-size: 42px;
+}
+
+.surf-report {
+    margin: auto;
+    padding: 2px;
+    width: 500px;
+    height: 500px;
+    border: 1px solid rgb(134, 133, 133) ;
+    background-image: url(./images/surf-report.jpg);
+    background-position: center;
+
+}
+
+.surf-report h3 {
+    text-align: center;
+}
+
+.surf-report p {
+    text-align: center;
+}
+
+.led-wall {
+    margin: auto;
+    padding: 2px;
+    width: 350px;
+    height: 350px;
+    border: 1px solid rgb(134, 133, 133) ;
+    background-image: url(./images/ledwall.jpg);
+    background-position: center;
+}
+
+.led-wall h3 {
+    text-align: center;
+}
+
+.led-wall p {
+    text-align: center;
+}
+
+.calculator {
+    margin: auto;
+    padding: 2px;
+    width: 350px;
+    height: 350px;
+    border: 1px solid rgb(134, 133, 133) ;
+    background-image: url(./images/calculator.jpg);
+    background-position: center;
+}
+
+.calculator h3 {
+    text-align: center;
+}
+
+.calculator p {
+    text-align: center;
+}
+
+
 /*contact me*/
